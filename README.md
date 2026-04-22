@@ -1,4 +1,4 @@
-# Simulaci-n-de-Redes-de-Comunicaci-n
+ Parte uno de Simulaci-n-de-Redes-de-Comunicaci-n
 Trabajo de clase, con fecha de entrega el 22 de abril a las 10 de la mañana
 
 Objetivo:
@@ -19,3 +19,16 @@ Entrega:
 ● Deberán presentar los archivos .py identificados de manera clara y ordenada.
 ● Trabajar una buena documentación. Subir al repositorio.
 ● Se debe enviar el enlace al repositorio correspondiente via classroom
+
+Parte dos de Simulaci-n-de-Redes-de-Comunicaci-n
+Actividad:
+
+Una vez que tenemos el código de la simulación de red básico vamos a simular una desconexión y conexión de un enrutamiento de la red.
+
+Agregar un método: eliminar_conexion, que a diferencia con agregar usaremos .remove.
+
+Utilizaremos una función de Python “time.sleep(segundos)” , tenemos que importar “time” .Esto hace que el programa se detenga durante los segundos que determinemos antes de continuar con la ejecución del código siguiente. En este caso, se está utilizando para simular un retraso entre la desconexión y la reconexión dinámica de los nodos en la red de comunicación.
+
+Luego del retraso temporal imprimirá el mensaje : “Simulando desconexión y reconexión dinámica…”
+
+Por último imprimirá el mensaje : "¡Hola de nuevo a todos!".
